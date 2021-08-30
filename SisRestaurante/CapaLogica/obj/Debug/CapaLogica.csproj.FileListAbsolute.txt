@@ -1,0 +1,11 @@
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\bin\Debug\CapaLogica.dll.config
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\obj\Debug\CapaLogica.csproj.AssemblyReference.cache
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaLogica\bin\Debug\CapaDatos.dll.config

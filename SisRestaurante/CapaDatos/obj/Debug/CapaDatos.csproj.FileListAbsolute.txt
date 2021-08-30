@@ -1,0 +1,9 @@
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaDatos\obj\Debug\CapaDatos.Properties.Resources.resources
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaDatos\obj\Debug\CapaDatos.csproj.GenerateResource.cache
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Padil\Desktop\restaurante\SisRestaurante\CapaDatos\bin\Debug\CapaDatos.dll.config

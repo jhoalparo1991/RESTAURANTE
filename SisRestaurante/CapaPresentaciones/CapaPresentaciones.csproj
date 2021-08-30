@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7105CAE8-EC27-4E08-B5CB-95E53AA25BCD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapaPresentaciones</RootNamespace>
+    <AssemblyName>CapaPresentaciones</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\Imagenes.cs" />
+    <Compile Include="Helpers\Mensajes.cs" />
+    <Compile Include="Helpers\Validaciones.cs" />
+    <Compile Include="Menu\frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Articulos\frmArticulos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Productos\Articulos\frmArticulos.Designer.cs">
+      <DependentUpon>frmArticulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\cpDepartamentos\frmDepartamentos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Productos\cpDepartamentos\frmDepartamentos.Designer.cs">
+      <DependentUpon>frmDepartamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\cpMarcas\frmMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\cpMarcas\frmMarcas.Designer.cs">
+      <DependentUpon>frmMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Secciones\frmSecciones.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Productos\Secciones\frmSecciones.Designer.cs">
+      <DependentUpon>frmSecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\Unidades\frmUnidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos\Unidades\frmUnidades.Designer.cs">
+      <DependentUpon>frmUnidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PuntoDeVenta\frmVisorMesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PuntoDeVenta\frmVisorMesas.Designer.cs">
+      <DependentUpon>frmVisorMesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalonesMesas\frmCrearMesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalonesMesas\frmCrearMesas.Designer.cs">
+      <DependentUpon>frmCrearMesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalonesMesas\frmMesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalonesMesas\frmMesas.Designer.cs">
+      <DependentUpon>frmMesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalonesMesas\frmSalones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalonesMesas\frmSalones.Designer.cs">
+      <DependentUpon>frmSalones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Menu\frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Articulos\frmArticulos.resx">
+      <DependentUpon>frmArticulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\cpDepartamentos\frmDepartamentos.resx">
+      <DependentUpon>frmDepartamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\cpMarcas\frmMarcas.resx">
+      <DependentUpon>frmMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Secciones\frmSecciones.resx">
+      <DependentUpon>frmSecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos\Unidades\frmUnidades.resx">
+      <DependentUpon>frmUnidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PuntoDeVenta\frmVisorMesas.resx">
+      <DependentUpon>frmVisorMesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalonesMesas\frmCrearMesas.resx">
+      <DependentUpon>frmCrearMesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalonesMesas\frmMesas.resx">
+      <DependentUpon>frmMesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalonesMesas\frmSalones.resx">
+      <DependentUpon>frmSalones.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{a848515b-04c7-4609-8335-cbb34225ea43}</Project>
+      <Name>CapaLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amarillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mesa_vacia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sumar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja_registradora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sin_foto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
